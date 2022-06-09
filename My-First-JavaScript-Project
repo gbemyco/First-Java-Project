@@ -1,0 +1,33 @@
+console.log('Hello world')
+console.log ("It's time to explore on JavaScripts")
+let num1 = 25;
+let num2 = 10;
+console.log (num1 + num2)
+console.log (num1 / num2)
+
+// Intro to If else statements
+if (num1 == 25)
+    console.log("That's correct!")
+else
+ console.log('Incorrect')
+
+let time = 25
+if (time < 10)
+  console.log ("Good morning")
+else if (time < 20)
+  console.log ('Good day')
+else
+  console.log ("Good evening")
+
+// Intro to JavaScripts functions
+function intro(name, age) {
+    console.log('My name is',name, 'I am', age, 'today.')
+}
+intro('Gbemi.', 'five')
+intro('Segun.', 'ten')
+
+// Console object methods
+console.table (['a', 'b', 'c'])
+console.table({a:1, b:2, c:3})
+let fruit_names= ['Mango', 'Juice', 'Guava', 'Apple']
+console.table(fruit_names)
